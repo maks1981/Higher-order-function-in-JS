@@ -1,0 +1,19 @@
+// Higher order Functions,
+// We can pass functions to other functions.
+
+function sing() {
+    console.log("hello hello dear friend");
+    console.log("hello hello lovely friend");
+}
+sing();// enter 
+hello hello dear friend,hello hello lovely friend
+
+setInterval(sing, 1000);
+1//hello hello dear friend
+// hello hello lovely friend
+// hello hello dear friend
+// hello hello lovely friend
+// hello hello dear friend
+to stop repeat it we shoud type
+clearInterval(1);
+
